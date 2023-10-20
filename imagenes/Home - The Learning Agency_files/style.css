@@ -1,0 +1,198 @@
+/**
+Theme Name: The Learning Agency
+Author: TS Web Services
+Author URI: https://www.tswebservices.com/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: the-learning-agency
+Template: astra
+*/
+
+
+body.single-team header section.elementor-section .elementor-background-overlay {
+	    opacity: 0.9!important;
+    background: #000000;
+}
+#hide-header {
+	transition: all .4s ease!important;
+}
+.gallary-slider .slick-track{
+	display: flex;
+	align-items: center;
+}
+@media (min-width: 1200px){
+body .rt-container {
+	margin: 200px auto 100px;
+	max-width: 90%;
+}}
+
+body .menu-link{
+	font-family: "Montserrat", Sans-serif!important;
+    font-weight: 400!important;
+}
+body.single-team .tlp-single-container .tlp-member-title{
+	font-weight: 500;
+	margin-top:20px;
+	color: #00A59B;
+}
+body.single-team .ast-container .tlp-member-description-container i{
+	color: #00A59B;
+}
+body.single-team .tlp-short-bio p {
+	font-weight: 600;
+}
+body.single-team .tlp-single-detail {
+    padding: 0px!important;
+}
+@media screen and  (max-width: 1200px) and (min-width:768px){
+body.single-team .rt-team-container{
+	margin-top: 150px;
+}}
+body .our-team-members .rt-elementor-container .single-team-area:hover img {
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}
+.single-team {
+    font-family: "Montserrat", Sans-serif;
+}
+body #mc_embed_signup{
+	background: transparent;
+}
+body footer .footer-link{
+	margin-bottom: 0px!important;
+}
+#mc_embed_signup_scroll input,
+#c_mc_embed_signup_scroll input{
+    width: 100%;
+    margin-bottom: 10px
+}
+input#mc-embedded-subscribe[value="Subscribe"], input#c_mc-embedded-subscribe[value="Subscribe"]{
+    border-color: transpirante;
+    background-color: #1EA69A;
+    color: #fff;
+	padding: 15px 20px;
+    transition: 0.3s ease-in-out;
+	font-family: "Montserrat", Sans-serif!important;
+}
+input#mc-embedded-subscribe[value="Subscribe"]{
+	width: auto;
+}
+input#mc-embedded-subscribe:hover, input#c_mc-embedded-subscribe:hover {
+    border-color: transpirante;
+    background-color: #54595F;
+    color: #fff;
+}
+#mc_embed_signup_scroll .mc-field-group  input,
+#c_mc_embed_signup_scroll .mc-field-group  input{
+    padding: 10px;
+}
+body #mc_embed_signup_scroll,
+body #c_mc_embed_signup_scroll{
+	text-align: left;
+}
+.single-team-area img{
+	width:200px;
+	height: 20px;
+}
+	#mc_embed_signup_scroll .elementor-container,
+#c_mc_embed_signup_scroll .elementor-container{
+		column-gap: 10px;
+	}
+body #mc_embed_signup div.mce_inline_error, body #mce-error-response, body #c_mce-error-response {
+    background-color: #ffd9d9;
+    font-weight: 500;
+    color: #d31414;
+    border: 1px solid #d31414;
+}
+body #mce-error-response,
+body #c_mce-error-response{
+	margin-bottom:10px;
+	padding: 8px;
+}
+body #mce-success-response,
+body #c_mce-success-response{
+    background-color: #e6ffe4;
+    font-weight: 500;
+    color: #189b09;
+    border: 1px solid #189b09;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+body #mc_embed_signup input.mce_inline_error{
+	border-color: #d31414;
+}
+#mc_embed_signup_scroll .elementor-container .mc-field-group,
+#c_mc_embed_signup_scroll .elementor-container .mc-field-group{
+		width: 100%;
+}
+#mc_embed_signup_scroll.modal-newsletter input,
+#c_mc_embed_signup_scroll.modal-newsletter input{
+    margin-top: 10px;
+}
+body .team-name a{ 
+	font-weight: 700!important;
+}
+.arrow-icon{
+	position: relative;
+}
+.arrow-icon::after {
+  content: "";
+  background: url(/wp-content/uploads/2023/05/arrow-right.png);
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  transform: translate(22px, -50%);
+}
+body .mobile-menu-bar ul.sub-menu {
+    background: transparent!important;
+}
+.mobile-menu-bar .elementor-widget-wrap {
+	 display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+.mobile-menu-bar .elementor-nav-menu--dropdown{
+	top: 54px!important;
+}
+body .elementor-element.the-lab-logo {
+    margin-bottom: 0;
+}
+body .home-post .uael-post__meta-data {
+    display: grid;
+}
+body .home-post .uael-post__meta-data span.uael-post__date {
+    position: absolute;
+    top: -35px;
+}
+body .home-post .uael-post-wrapper {
+    position: relative;
+}
+body footer p{
+	margin-bottom: 0px;
+}
+@media (min-width: 1200px){
+	.single-team .tlp-member-feature-img {
+    width: auto;
+    margin-right: 50px;
+	}
+}
+
+@media (max-width:1200px){
+	br{
+		display: none;
+	}
+	#mc_embed_signup_scroll .elementor-container .elementor-col-50,
+	#c_mc_embed_signup_scroll .elementor-container .elementor-col-50{
+		width: 100%;
+	}
+	.single-team .tlp-member-feature-img, .single-team .tlp-member-description-container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}

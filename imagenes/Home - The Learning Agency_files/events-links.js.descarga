@@ -1,0 +1,8 @@
+function externalLinks() {
+    for(var c = document.querySelectorAll(".event-post-content .tribe-events-meta-group a"), a = 0;a < c.length;a++) {
+      var b = c[a];
+      b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+    }
+  }
+  ;
+  externalLinks();
